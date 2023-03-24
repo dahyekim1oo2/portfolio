@@ -14,10 +14,10 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Home />}/>
-      <Route path='/about' element={<About />}/> 
-      <Route path='/pj' element={<Pj />}/> 
-      <Route path='/skills' element={<Skills />}/> 
+      <Route path={`${process.env.PUBLIC_URL}/`}  element={<Home />}/>
+      <Route path={`${process.env.PUBLIC_URL}/about`}  element={<About />}/> 
+      <Route path={`${process.env.PUBLIC_URL}/pj`}  element={<Pj />}/> 
+      <Route path={`${process.env.PUBLIC_URL}/skills`} element={<Skills />}/> 
 
     </Routes>
 
