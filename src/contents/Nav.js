@@ -32,10 +32,10 @@ function Nav(){
                 <div className='rightNav'>
                     <div>
                         <ul className={width<=800?(nav?"show":"hidden"):"Navlist"}>
-                            <li className='gohome'><Link  to="/">Home</Link></li>
-                            <li className='about'><Link to="/about">About</Link></li>
-                            <li className='skills'><Link to="/skills">Skills</Link></li>
-                            <li className='project'><Link to="/pj">Projects</Link></li>
+                            <li className='gohome'><Link  to={`${process.env.PUBLIC_URL}/`}>Home</Link></li>
+                            <li className='about'><Link to={`${process.env.PUBLIC_URL}/about`}>About</Link></li>
+                            <li className='skills'><Link to={`${process.env.PUBLIC_URL}/pj`}>Skills</Link></li>
+                            <li className='project'><Link to={`${process.env.PUBLIC_URL}/skills`}>Projects</Link></li>
 
                         </ul>
                     </div>
