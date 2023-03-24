@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
-import Home from './page/Home';
-import About from './page/About';
-import Skills from './page/Skills';
+import Home from './routes/Home';
+import About from './routes/About';
+import Skills from './routes/Skills';
 import "./css/main.css";
-import Pj from './page/Pj';
+import Pj from './routes/Pj';
 
 
 
