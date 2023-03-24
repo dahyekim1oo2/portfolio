@@ -1,0 +1,345 @@
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'KIMM_Bold';
+    font-weight: 300;
+    
+}
+h1{
+    margin-bottom:5px;
+}
+h2{
+    margin-bottom: 10px;
+}
+li{
+    margin-bottom: 5px;
+}
+
+.summary{
+    margin-top: 2vh;
+    width: 55vw;
+    font-size:x-large;
+    font-weight: 300;
+    text-align: center;
+}
+
+body{
+    color: #313131;
+    background-color: #f5f8ff;
+}
+
+/* Home */
+.home{
+    display: flex;
+    justify-content: space-between;
+    height: 65vh;
+
+
+}
+.hidden{
+    display: none;
+}
+.show{
+
+    display: block;
+}
+
+.mine{
+    width: 90vw;
+    display: flex;
+    margin: 10vh;
+    justify-content: center;
+}
+.title{
+    width: 85vw;
+    text-align: center;
+    color:#6eb1cf ;
+}
+.IDPhoto{
+    height:50vh;
+    width: fit-content;
+    margin-right: 5vw;
+}
+/* skills */
+.skill{
+    margin: auto;
+    width: 80vw;
+    height:  85vh;
+    display: block;
+    background-color: transparent;
+}
+.skillBox{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    padding-top: 5vh;
+    margin: 20px;
+    text-align: center;
+    width: 25vw;
+    height:60vh;
+    font-size: x-large;
+    border-radius: 2%;
+    background-color: rgba(120, 188, 219,0.5);
+
+}
+.box div{
+    height: 12vh;
+}
+.titleBox{
+    display: flex;
+    justify-content: space-between;
+}
+.titleBox h3{
+    color: #6eb1cf;
+    margin: 20px;
+    text-align: center;
+    width: 25vw;
+    font-size: xX-large;
+}
+
+/* About */
+.about{
+    text-align: center;
+}
+.line{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 42vh;
+    
+}
+.line div{
+    display: block;
+}
+.ABox{
+    background-color:rgba(237, 225, 227,0.7) ;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 35vh;
+    margin: auto;
+    margin-top:10px;
+}
+.ABox i{
+    margin: 2vh;
+    font-size: 50px;
+}
+.ABox h3{
+    margin: 2vh;
+}
+.ABox div  ul{
+    list-style: none;
+}
+
+.PJIMG{
+    width:55vw;
+}
+
+.contents{
+    font-family: 'TheJamsil5Bold';
+    width: 90vw;
+    height: 75vh;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    
+}
+.pjItro{
+
+    margin-top: 20px;
+    margin-right: 2vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.intro{
+    margin-top: 1vh;
+}
+.myintro{
+    width: 40vw;
+}
+.left{
+    padding-left: 20px;
+}
+.right{
+
+    width: 28vw;
+}
+.right div {
+    margin-top: 20px;
+} 
+.slick-arrow {
+    color: #29318a;
+}
+.bar{
+    display: none;
+}
+.mid{
+    height:65vh;
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    margin: 10vh;
+    justify-content: center;
+}
+.boxName{
+    display: none;
+}
+.myintroduction {
+    width: 800px;
+    font-size: larger;
+}.myintroduction h1{
+    margin-bottom: 40px;
+}
+.myintroduction h2{
+    margin-top: 10px;
+    
+}
+.myintroduction h3{
+    margin-bottom: 20px;
+    color: #44484b;
+}
+
+@media (max-width: 1250px) {
+
+    .summary{
+        width: 80vw;
+    }
+    
+
+    .page{
+        margin: auto;
+        
+
+        
+    }
+    .intro{
+        margin-top: 1vh;
+    }
+    .PJIMG{
+        width: 80vw;
+    }
+
+    .pjItro{
+        display: block;
+
+    }
+    .contents{
+
+        width: 90vw;
+        height: auto;
+        margin: auto;
+    }
+    .right{
+
+        width: 80vw;
+        text-align: center;
+    }
+    .right ul li{
+        list-style: none;
+    }
+
+}
+@media (max-width: 800px) {
+    
+    .titleBox{
+        display: none;
+
+    }
+    .boxName{
+        color: #6eb1cf;
+        margin-top: 2vh;
+        text-align: center;
+        display: block;
+        font-size: x-large;
+    }
+    
+    .skillBox{
+        display: block;
+        margin-left:0;
+    }
+    .box{
+        padding: 10px;
+        margin-left: 0;
+        width: 80vw;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .bar{
+        display: block;
+        font-size: x-large;
+    }
+    .Navlist{
+        display: none;
+    }
+    .home{
+        padding-top: 20px;
+        margin: auto;
+        width: 80vw;
+        height:  82vh;
+        display: block;
+        text-align: center;
+    }
+    .IDPhoto{
+        width: 50vw;
+        height: auto;
+    }
+    .line{
+        width: 99vw;
+        height: auto;
+        display: block
+    }
+    .honeMid{
+        margin-left: 0px;
+        margin: auto;
+    }
+    .myintroduction{
+        margin-top: 20px;
+        font-size:x-small;
+
+    }
+
+    .logo{
+        display: flex;
+        padding:10px;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .logo i{
+        font-size: xx-large;
+        margin-top: 10px;
+        color: #6eb1cf;
+    }
+    .smallNav{
+        position: sticky;
+        top:0;
+        background-color:  #f5f8ff;
+    }
+    .intro{
+        padding: 20px 0px ;
+        margin: auto;
+    }
+    .myintroduction{
+        width: 80vw;
+        height: auto;
+    }
+    .myintroduction h3{
+        width: 75vw;
+    }
+    .IDPhoto{
+        width: 200px;
+    }
+
+}
