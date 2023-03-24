@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio.git/static/css/main.05a98bb7.css",
-    "main.js": "/portfolio.git/static/js/main.5d5cff3d.js",
-    "static/media/PJ2.png": "/portfolio.git/static/media/PJ2.64823381e3d62f1248a0.png",
-    "static/media/dahye.jpg": "/portfolio.git/static/media/dahye.726dc9f482845b253bba.jpg",
-    "static/media/PJ1.png": "/portfolio.git/static/media/PJ1.dc7fa5615e5c376299ce.png",
-    "static/media/PJ3.png": "/portfolio.git/static/media/PJ3.43fd67b6189f2a1bb5cf.png",
-    "static/media/Daco_752371.png": "/portfolio.git/static/media/Daco_752371.97788cc625b05aa6ac28.png",
-    "static/media/before.png": "/portfolio.git/static/media/before.03c6f1356924d8dbd5de.png",
-    "static/media/logo.png": "/portfolio.git/static/media/logo.c3e6116787a391ebf4c8.png",
-    "static/media/arduino.svg": "/portfolio.git/static/media/arduino.661ac7902e8f31db8f42c9b4aba3b294.svg",
-    "static/media/slick.svg": "/portfolio.git/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/portfolio.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/portfolio.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/portfolio.git/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/vscode.svg": "/portfolio.git/static/media/vscode.0a6aa04c15fb87d90e39cbd96cce1d20.svg",
-    "index.html": "/portfolio.git/index.html",
-    "main.05a98bb7.css.map": "/portfolio.git/static/css/main.05a98bb7.css.map",
-    "main.5d5cff3d.js.map": "/portfolio.git/static/js/main.5d5cff3d.js.map"
+    "main.css": "/portfolio/static/css/main.3bcb9f27.css",
+    "main.js": "/portfolio/static/js/main.bc32b9c8.js",
+    "static/media/PJ2.png": "/portfolio/static/media/PJ2.64823381e3d62f1248a0.png",
+    "static/media/dahye.jpg": "/portfolio/static/media/dahye.726dc9f482845b253bba.jpg",
+    "static/media/PJ1.png": "/portfolio/static/media/PJ1.dc7fa5615e5c376299ce.png",
+    "static/media/PJ3.png": "/portfolio/static/media/PJ3.43fd67b6189f2a1bb5cf.png",
+    "static/media/Daco_752371.png": "/portfolio/static/media/Daco_752371.97788cc625b05aa6ac28.png",
+    "static/media/before.png": "/portfolio/static/media/before.03c6f1356924d8dbd5de.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.c3e6116787a391ebf4c8.png",
+    "static/media/arduino.svg": "/portfolio/static/media/arduino.661ac7902e8f31db8f42c9b4aba3b294.svg",
+    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/vscode.svg": "/portfolio/static/media/vscode.0a6aa04c15fb87d90e39cbd96cce1d20.svg",
+    "index.html": "/portfolio/index.html",
+    "main.3bcb9f27.css.map": "/portfolio/static/css/main.3bcb9f27.css.map",
+    "main.bc32b9c8.js.map": "/portfolio/static/js/main.bc32b9c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.05a98bb7.css",
-    "static/js/main.5d5cff3d.js"
+    "static/css/main.3bcb9f27.css",
+    "static/js/main.bc32b9c8.js"
   ]
 }
